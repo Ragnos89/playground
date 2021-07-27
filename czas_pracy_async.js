@@ -24,4 +24,4 @@ function wypłata() {
     catch(err) {
     console.log('Bład w czasie pracy', err);
     }
-})
+})();
