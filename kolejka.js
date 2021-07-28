@@ -32,9 +32,19 @@ class Queue {
         if (!this.queue) return 'Kolejka jest pusta';
         return this.queue.name
     }
+    show_queue() {
+        if (!this.queue) return 'Kolejka jest pusta';
+        let temp = this.queue;
+        while(temp.next !== null) {
+            console.log(temp.name);
+            temp = temp.next;
+        }
+    }  
 }
 let q1 = new Queue();
 q1.add('Karol');
 q1.add('Bartek');
-q1.remove();
-console.log(q1.peek());
+q1.show_queue();
+//q1.remove();
+//console.log(q1.peek());
+console.log(q1.queue.next.name);
