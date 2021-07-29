@@ -53,7 +53,7 @@ class Queue {
         }
     } 
 }
-let q1 = new Queue();
+/*let q1 = new Queue();
 q1.add('Karol');
 q1.add('Bartek');
 q1.add('Michał');
@@ -61,4 +61,5 @@ q1.add('Mateusz');
 console.log(q1.show_queue());
 //q1.remove();
 //console.log(q1.peek());
-//console.log(q1.queue.next.name);
+//console.log(q1.queue.next.name); */
+export default Queue;
