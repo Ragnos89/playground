@@ -21,6 +21,7 @@ class Queue {
             }
             tempElement.next = newElement;
         }
+        console.log('Dodano',element,'do kolejki');
     }
     remove() {
         let head = this.queue
