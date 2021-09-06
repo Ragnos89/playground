@@ -29,7 +29,6 @@ function comp(array1, array2) {
     for (let j = 0; j < array1.length; j++) {
       if (el === array1[j]) {
         array1.splice(j, 1);
-        //console.log(array1);
       }
     }
   });
@@ -40,12 +39,4 @@ function comp(array1, array2) {
     return false;
   }
 }
-// for (let i = 0; i < array1.length; i++) {
-//   let potega = Math.pow(array1[i], 2);
-//   for (let j = 0; j < array2.length; j++) {
-//     if (potega === array2[j]) {
-//     }
-//   }
-// }
-//}
 console.log(comp(a, b));
